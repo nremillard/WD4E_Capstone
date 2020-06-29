@@ -1,0 +1,208 @@
+/*
+This is a trial website ("Portfolio") for the Web Design for Everybody Capstone course by University of Michigan on Coursera. 
+All HTML, CSS, and JavaScript contained within the Portfolio are intellectual property of Mr. Lam Yue Hao. 
+Neither the Portfolio nor excerpts of the underlying codes may be modified or copied in whole or part in any form for other purposes, without explicit permission granted.
+*/
+
+
+body {
+	font-family: arial;
+	font-size: 20px;
+	margin: 0px;
+}
+
+header {
+	background-color: #BED73B;
+	padding: 0px 10px 0px 25px;
+	overflow: auto;
+}
+
+.logopic {
+	width: 60px;
+	height: 60px;
+	vertical-align: text-bottom;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: 2px solid #228B22;
+	color: #228B22;
+}
+
+nav a {
+	background-color: #3F454A;
+	color: #FFFFFF;
+	float: left;
+	padding: 15px 0px;
+	display: inline-block;
+	text-decoration: none;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.5em;
+	border-bottom: 0px solid #000000;
+}
+
+nav a:hover {
+	color: #BED73B;
+}
+
+.selectednav {
+	background-color: #74B749;
+	color: #3F454A;
+	font-weight: bold;
+}
+
+.content {
+	min-height: 600px;
+	padding: 5px 5px 10px 5px;
+	line-height: 1.6;
+}
+
+.indexsection {
+	width: 100% - 10px;  /* for mobile screen */
+	display: inline-block;
+	margin: 10px;
+	padding: 5px 10px;
+	vertical-align: top;
+	text-align: justify;
+}
+
+.indexpic {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.indexcaption {
+	background-color: #f2f2f2;
+	color: #000000;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0px 10px 15px;
+	width: calc(100% - 20px);
+	font-size: 0.8em;
+	border-left: 5px solid #a12528;
+}
+
+.threerwordsection {
+	width: calc(100% - 90px);  /* for mobile screen */
+	display: inline-block;
+	margin: 10px 20px;
+	padding: 5px 20px;
+	vertical-align: top;
+	text-align: justify;
+}
+
+.threerpicsection {
+	width: calc(100% - 90px);  /* for mobile screen */
+	display: inline-block;
+	margin: 10px 20px;
+	padding: 20px 20px 30px 20px;
+	vertical-align: top;
+	text-align: justify;
+}
+
+.pagepic {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+}
+
+.caption {
+	background-color: #f2f2f2;
+	color: #000000;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0px 10px 15px;
+	width: calc(70% - 20px);
+	font-size: 0.8em;
+	border-left: 5px solid #a12528;
+}
+
+
+.youtubecontainer {
+	/* code added to make youtube video size dynamic*/
+	position: relative;
+	height: 0;
+	padding-bottom: 56.25%;
+}
+
+.youtube {
+	/* code added to make youtube video size dynamic*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+iframe {
+	border:none;  /* added iframe CSS rules as the frameborder attribute on the iframe element is obsolete.*/
+}
+
+
+#decisionmaking {
+	min-height: 600px;
+}
+
+
+.buttongreen {
+	background-color: #A6E22E;
+	border: none;
+	color: #272822;
+	font-size: 0.8em;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 16px;
+}
+
+
+
+footer {
+	background-color: #BED73B;
+	padding: 20px 10px 10px 25px;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+
+/* for big screen */
+@media only screen and (min-width: 990px) {
+
+	nav a {
+		width: 25%
+	}
+
+	.indexsection {
+		width: calc(100% / 3 - 50px);
+	}
+
+	.indexpic {
+		width: 100%;
+	}
+
+	.threerwordsection {
+		width: calc(100% / 2 - 90px);
+	}
+
+	.threerpicsection {
+		padding: 90px 20px 20px 20px;
+		width: calc(100% / 2 - 90px);
+	}
+
+	.pagepic {
+		width: 60%;
+	}
+
+	.caption {
+		width: calc(60% - 20px);
+	}
+
+
+}
