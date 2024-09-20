@@ -1,4 +1,4 @@
 # Web Design for Everybody Capstone
 
-Go to https://drakecoursea.github.io/Web_Design_for_Everybody_Capstone/index.html to access the capstone project website.
+Go to https://nremillard.github.io/WD4E_Capstone/     to access the capstone project website.
 Enjoy.
